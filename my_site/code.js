@@ -5,7 +5,6 @@ var t1=[
   "randmommmm 4"
 ];
 var par = t1[Math.floor(Math.random() * 4)];
-document.write(par);
 
 document.getElementById("demo").innerHTML=(par);
 document.body.innerHTML= document.getElementById("myP").innerHTML=(par);
